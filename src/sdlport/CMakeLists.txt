@@ -18,6 +18,7 @@ include_directories(
     ${abuse_SOURCE_DIR}/src/imlib
     ${SDL2_INCLUDE_DIR}
     ${SDL2_MIXER_INCLUDE_DIR}
+    ${GLEE_INCLUDE_DIR}
 )
 #INCLUDES = -I$(srcdir)/../ -I$(srcdir)/../imlib $(SDL2_CFLAGS)
 #

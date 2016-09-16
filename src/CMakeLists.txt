@@ -91,6 +91,7 @@ target_link_libraries(abuse ${SDL2_LIBRARY})
 target_link_libraries(abuse ${SDL2_MIXER_LIBRARIES})
 if(OPENGL_FOUND)
     target_link_libraries(abuse ${OPENGL_LIBRARIES})
+    target_link_libraries(abuse ${GLEE_LIB})
 endif(OPENGL_FOUND)
 
 add_executable(abuse-tool

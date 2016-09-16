@@ -15,8 +15,10 @@ if (WIN32)
 endif()
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
+find_package(OPENGL REQUIRED)
 find_package(SDL2 2.0.0 REQUIRED)
 find_package(SDL2_mixer 2.0.0 REQUIRED)
+find_package(GLEE 5.4 REQUIRED)
 
 include(CheckIncludeFiles)
 
